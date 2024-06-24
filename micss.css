@@ -1,0 +1,287 @@
+#bannerPrincipal{
+	background-image: url(assets/img-fondo.jpg);
+	background-size: cover;
+	padding: 150px 0;
+
+}
+#bannerPrincipal::before{
+	background: color-mix(in srgb, var(--background-color), transparent 15%);
+}
+#bannerPrincipal h2{
+	color: #3e5055;
+	font-size: 50px;
+	font-weight: 20px !important;
+}
+#bannerPrincipal p{
+	color: #73747a;
+	font-size: 20px;
+}
+#bannerPrincipal span{
+	color: #388da8;
+}
+#bannerPrincipal .btn-1{
+	background: #388da8;
+	border-radius: 50px;
+	color: white;
+	font-size: 15px;
+}
+#bannerPrincipal .btn-1:hover{
+	background: #559db4;
+	box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+}
+#bannerPrincipal .btn-2 i{
+	color: #388da8;
+}
+#bannerPrincipal .btn-2 b{
+	color: #3e5055;
+	vertical-align: super;
+	transition: all 0.5s;
+}
+#bannerPrincipal .btn-2 b:hover{
+	color: #388da8;
+	transition: all 0.5s;
+}
+#bannerPrincipal .img-principal{
+	padding: 0 220px;
+}
+#seccion{
+	background: #f3f8fa;
+	padding: 40px 0;
+}
+#seccion h5{
+	color: #3e5055;
+	transition: all 0.5s;
+}
+#seccion .col-md-4:hover h5{
+	color: #388da8;
+	transition: all 0.5s;
+}
+#seccion p{
+	color: #3e5055;
+	font-size: 14px;
+}
+#seccion i{
+	background: #cde2ea;
+	padding: 20px;
+	color: #388da8;
+	transition: all 0.5s;
+}
+#seccion .col-md-4:hover i{
+	background: #388da8;
+	color: white;
+	transition: all 0.5s;
+}
+#Unleashing .who{
+	color: #3d43487a;
+}
+#Unleashing h2{
+	font-weight: 700;
+	padding-bottom: 15px;
+	color: #3e5055;
+}
+#Unleashing i{
+	font-size: 15px;
+	color: #388da8;
+}
+#Unleashing img{
+	border-radius: 50px;
+}
+#Features{
+	padding-top: 60px;
+	color: #3e5055;
+}
+.line{
+	width: 50px;
+    display: block;
+    height: 3px;
+    background: #388da8;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    position: relative;
+}
+#Features a{
+	color:  #3e5055;
+}
+#Features .modi{
+	border-radius: 10px;
+}
+#Features .modi:hover{
+	background: #eff6f8;
+}
+#Features img{
+	border-radius: 10px;
+}
+#Corporis img{
+	border-radius: 10px;
+}
+#Corporis .provident{
+	background: #f5f9fa;
+	margin-left: 100px;
+	border-radius: 10px;
+	padding: 30px;
+}
+#Corporis .provident h4{
+	font-weight: 700;
+	font-size: 25px;
+	margin-bottom: 10px;
+	color: #3e5055;
+}
+#Corporis .provident p{
+	color: #3d4348b0;
+}
+#Neque .provident{
+	background: #f5f9fa;
+	margin-right: 100px;
+	border-radius: 10px;
+	padding: 30px;
+	color: #3e5055;
+}
+#Neque .provident h4{
+	font-weight: 700;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+#Neque .provident p{
+	color: #3d4348b0;
+}
+#Neque button{
+	background: #388da8;
+	border-radius: 5px;
+	color: white;
+	font-size: 15px;
+}
+#Neque img{
+	border-radius: 10px;
+}
+#Services{
+	background: #f9fbfc;
+}
+#Services h2{
+	color: #3e5055;
+}
+#Services p{
+	color: #3e5055;
+}
+#Services .necesidades{
+	background: white;
+	border-radius: 10px;
+	box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+}
+#Services .necesidades h4{
+	color: #3e5055;
+}
+#Services .necesidades p{
+	color: #3d4348b0;
+	margin-bottom: 10px;
+}
+#Enim{
+	color: #3e5055;
+}
+.font-pequeño{
+	font-size: 14px;
+}
+#Pricing{
+	color: #3e5055;
+}
+#Pricing .plan{
+	background: #f7fbfc;
+	border-radius: 10px;
+	padding: 40px;
+}
+#Pricing .popular{
+	background: #388da8;
+	border-radius: 5px;
+	color: white;
+	margin-left: auto;
+	width: 80px;
+}
+#Pricing .precio{
+    color: #388da8;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-align: center;
+}
+#Pricing .precio h2{
+	color: #388da8;
+	font-size: 50px;
+	font-weight: 700;
+}
+#Pricing .precio h6{
+	margin-top: auto;
+	color: #a2a6a9;
+	font-size: 20px;
+}
+#Questions{
+	color: #3e5055;
+}
+#Questions button{
+	border: 0px;
+	background: transparent;
+	color: #3e5055;
+	transition: all 0.5s;
+}
+#Questions button:hover{
+	color: #388da8;
+	transition: all 0.5s;
+}
+#Questions .card{
+	border-width: 1px;
+    border-color: #d3e5ec;
+    background: #f9fbfc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#Questions .card-header{
+	background: transparent;
+	border: 0px;
+}
+#Contact{
+	color: #3e5055;
+}
+#Contact .informacion{
+	padding: 20px;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	text-align: center;
+}
+#Contact .informacion input{
+    color: #388da8;
+}
+#QuickStart{
+	color: #3e5055;
+	background: #f9fbfc;
+}
+#QuickStart a{
+	color: #3d4348b0;
+}
+#QuickStart i{
+	padding: 10px 11px;
+	border: 1px solid  #3d4348b0;
+	border-radius: 50px;
+	transition: all 0.5s;
+}
+#QuickStart .face{
+	padding: 10px 14px !important;
+}
+#QuickStart i:hover{
+	color: #388da8;
+	border: 1px solid #388da8;
+	transition: all 0.5s;
+}
+#QuickStart .BootstrapMade{
+	color: #388da8;
+	transition: all 0.5s;
+}
+#QuickStart .BootstrapMade:hover{
+	color: #388da8c2;
+	transition: all 0.5s;
+}
+.logoPrincipal {
+    font-weight: bolder;
+    font-size: 30px !important;
+}
+.logoPrincipal span{
+    color: red;
+}

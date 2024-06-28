@@ -1,11 +1,16 @@
+#BarraDe-N{
+	background: white !important;
+	color: black !important;
+}
+.logoPrincipal {
+    font-weight: bolder;
+    font-size: 30px !important;
+}
 #bannerPrincipal{
 	background-image: url(assets/img-fondo.jpg);
 	background-size: cover;
 	padding: 150px 0;
 
-}
-#bannerPrincipal::before{
-	background: color-mix(in srgb, var(--background-color), transparent 15%);
 }
 #bannerPrincipal h2{
 	color: #3e5055;
@@ -201,6 +206,66 @@
 #Services{
 	background: #f9fbfc;
 }
+#Services .iconoazul{
+	color: #0dcaf0;
+	padding: 20px 20px;
+	background: #e6fafd;
+	border: 1px solid #0dcaf0;
+	border-radius: 10px;
+}
+#Services .a-azul{
+	color: #0dcaf0;
+}
+#Services .icononaranja{
+	color: #fd7e14;
+	padding: 20px 20px;
+	background: #fff2e7;
+	border: 1px solid #fd7e14;
+	border-radius: 10px;
+}
+#Services .a-naranja{
+	color: #fd7e14;
+}
+#Services .iconoverde{
+	color: #20c997;
+	padding: 20px 20px;
+	background: #e8f9f4;
+	border: 1px solid #20c997;
+	border-radius: 10px;
+}
+#Services .a-verde{
+	color: #20c997;
+}
+#Services .iconorojo{
+	color: #e33041;
+	padding: 20px 20px;
+	background: #fce7e5;
+	border: 1px solid #e33041;
+	border-radius: 10px;
+}
+#Services .a-rojo{
+	color: #e33041;
+}
+#Services .iconomorado{
+	color: #6610f2;
+	padding: 20px 20px;
+	background: #efe7fe;
+	border: 1px solid #6610f2;
+	border-radius: 10px;
+}
+#Services .a-morado{
+	color: #6610f2;
+}
+#Services .iconorosa{
+	color: #f3268c;
+	padding: 20px 20px;
+	background: #fee9f3;
+	border: 1px solid #f3268c;
+	border-radius: 10px;
+}
+#Services .a-rosa{
+	color: #f3268c;
+}
 #Services h2{
 	color: #3e5055;
 }
@@ -209,15 +274,31 @@
 }
 #Services .necesidades{
 	background: white;
-	border-radius: 10px;
+	border-radius: 10px;	
+	border: 1px solid #e2e3e4;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+#Services .necesidades:hover {
 	box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s;
+}
+#Services .necesidades:hover h4 , p{
+	color: #3e5055;
+	transition: all 0.3s;
 }
 #Services .necesidades h4{
+	color: #6f7c80;
+	transition: all 0.3s;
+}
+#Services .necesidades:hover p{
 	color: #3e5055;
+	transition: all 0.3s;
 }
 #Services .necesidades p{
 	color: #3d4348b0;
 	margin-bottom: 10px;
+	transition: all 0.3s;
 }
 #Enim{
 	color: #3e5055;
@@ -309,6 +390,14 @@
 	border-radius: 50px;
 	color: white;
 	padding: 8px 30px;
+}
+#Contact i{
+	padding: 14px 17px;
+    background: white;
+    border-radius: 50px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+    color: #388da8;
+    margin-bottom: 10px;
 }
 #QuickStart{
 	color: #3e5055;

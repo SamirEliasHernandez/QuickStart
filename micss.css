@@ -1,8 +1,9 @@
 .slick-active {
     color: red !important;
+    opacity: 0.3;
 }
 .slick-active.slick-current{
-	color: green !important;
+	opacity: 1;
 }
 #BarraDe-N{
 	background: white !important;
@@ -579,11 +580,11 @@
 }
 .slick-prev:before
 {
-    content: '←';
+    content: '\f104';
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '→';
+    content: '\f104';
 }
 
 .slick-next
@@ -597,11 +598,11 @@
 }
 .slick-next:before
 {
-    content: '\f04b';
+    content: '\f105';
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '\f04b';
+    content: '\f105';
 }
 
 /* Dots */
@@ -692,4 +693,30 @@
 {
     opacity: .75;
     color: black;
+
+}
+#Testimonials{
+	background: #f9fbfc;
+}
+.stars{
+	color: #ffc107;
+	margin-bottom: 20px;
+}
+.contenedorTestimonios img{
+	width: 90px;
+	height: 90px;
+	margin-bottom: 10px;
+}
+.contenedorTestimonios p{
+	color: #3e5055;
+	font-size: 16px;
+}
+.contenedorTestimonios h4{
+	color: #3e5055;
+}
+.contenedorTestimonios h6{
+	color: #3e5055;
+}
+.testimonio .card{
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
 }

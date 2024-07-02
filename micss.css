@@ -1,6 +1,6 @@
 #BarraDe-N{
 	background: white !important;
-	padding: 30px 0;
+	padding: 15px 0;
 	box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
 }
 #BarraDe-N img{
@@ -31,6 +31,9 @@
 	background: #559db4;
 	color: white;
 	transition: all 0.3s;
+}
+#BarraDe-N .dropdown-a a{
+	margin-left: 0;
 }
 .logoPrincipal {
     font-weight: bolder;
@@ -80,6 +83,9 @@
 }
 #bannerPrincipal .img-principal{
 	padding: 0 220px;
+}
+#seccion a{
+	text-decoration: none;
 }
 #seccion{
 	background: #f3f8fa;
@@ -163,6 +169,7 @@
 }
 #Features a{
 	color:  #3e5055;
+	text-decoration: none;
 }
 #Features .modi{
 	border-radius: 10px;
@@ -232,6 +239,9 @@
 }
 #Neque img{
 	border-radius: 10px;
+}
+#Services a{
+	text-decoration: none;
 }
 #Services{
 	background: #f9fbfc;
@@ -313,7 +323,7 @@
 	box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
 	transition: all 0.3s;
 }
-#Services .necesidades:hover h4 , p{
+#Services .necesidades:hover h4 {
 	color: #3e5055;
 	transition: all 0.3s;
 }
@@ -435,6 +445,7 @@
 }
 #QuickStart a{
 	color: #3d4348b0;
+	text-decoration: none;
 }
 #QuickStart i{
 	padding: 10px 11px;

@@ -1,8 +1,10 @@
-.slick-active {
+.slick-slide {
     color: red !important;
+    opacity: 0.5;
 }
 .slick-active.slick-current{
 	color: green !important;
+	opacity: 1;
 }
 #BarraDe-N{
 	background: white !important;
@@ -579,7 +581,7 @@
 }
 .slick-prev:before
 {
-    content: '←';
+    content: '\f2d3';
 }
 [dir='rtl'] .slick-prev:before
 {

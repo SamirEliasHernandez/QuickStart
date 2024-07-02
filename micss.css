@@ -1,5 +1,4 @@
-.slick-active {
-    color: red !important;
+.slick-slide {
     opacity: 0.3;
 }
 .slick-active.slick-current{
@@ -581,6 +580,7 @@
 .slick-prev:before
 {
     content: '\f104';
+
 }
 [dir='rtl'] .slick-prev:before
 {

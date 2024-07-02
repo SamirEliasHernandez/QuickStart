@@ -1,6 +1,36 @@
 #BarraDe-N{
 	background: white !important;
-	color: black !important;
+	padding: 30px 0;
+	box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+}
+#BarraDe-N img{
+	width: 40px;
+	height: 40px;
+}
+#BarraDe-N a{
+	color: #3e5055;
+	font-size: 15px;
+	margin-left: 10px;
+	transition: all 0.3s;
+}
+#BarraDe-N a:hover{
+	color: #388da8;
+	transition: all 0.3s;
+}
+#BarraDe-N h2{
+	color: #3e5055;
+}
+#BarraDe-N .get-btn{
+	padding: 6px 20px;
+	background: #388da8;
+	border-radius: 50px;
+	color: white;
+	transition: all 0.3s;
+}
+#BarraDe-N .get-btn:hover{
+	background: #559db4;
+	color: white;
+	transition: all 0.3s;
 }
 .logoPrincipal {
     font-weight: bolder;

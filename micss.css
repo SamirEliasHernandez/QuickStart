@@ -194,6 +194,17 @@
 #Features img{
 	border-radius: 10px;
 }
+#seccionlogos img{
+	opacity: 0.5;
+	filter: grayscale(1);
+	transition: all 0.3s;
+
+}
+#seccionlogos img:hover{
+	opacity: 1;
+	filter: grayscale(0);
+	transition: all 0.3s;
+}
 #Corporis img{
 	border-radius: 10px;
 }
